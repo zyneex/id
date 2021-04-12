@@ -1,12 +1,24 @@
 {
-  "name": "id",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@zyneex/id",
+  "version": "0.0.1",
+  "description": "Generate random ids",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Miguel da Mota <mixeus@zyneex.dev> (http://zyneex.dev/mixeus)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyneex/id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zyneex/id/issues"
+  },
+  "homepage": "https://github.com/zyneex/id#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.4"
+  }
 }
