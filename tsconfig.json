@@ -2,17 +2,16 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "lib": ["ES2018"],
+    "lib": ["ES5"],
     "module": "CommonJS",
     "moduleResolution": "node",
-    "outDir": "dist",
+    "outDir": "lib",
     "strictNullChecks": true,
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "ES2018"
-  },
-  "include": ["./src"]
+    "target": "ES5"
+  }
 }
